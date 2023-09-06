@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+height: 140vh;        }
+        div{
+            height: 300px;
+            width: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        section{
+            width: 32%;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+
+        .drop{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.content{
+  background-color: #00000042;
+  color: #fff;
+  display: none;
+  width: 200px;
+  height: 200px;
+
+}
+
+
+.drop:hover .content{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 30px;
+}
+    </style>
+</head>
+<body>
+    <section class="three"></section>
+    <section class="one">
+
+        <div style="background-color: red;margin-top: 60px;">
+         <img src="" alt="">
+         <h4></h4>
+         <p></p>
+        </div> 
+        <div style="background-color: blue;margin-top: 20px;">
+         <img src="" alt="">
+         <h4></h4>
+         <p></p>
+        </div> 
+    </section>
+    <section class="tow">
+
+        <div style="background-color: green;margin-top: 100px;">
+            <img src="" alt="">
+            <h4></h4>
+            <p></p>
+        </div> 
+        <div style="background-color: black;margin-top: 20px;">
+            <img src="" alt="">
+            <h4></h4>
+            <p></p>
+        </div> 
+    </section>
+    <div class="drop">
+        <br>
+        <a href="">first line</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <br><br>
+        <br>
+        <div class="content">
+            <a href="">one</a>
+            <a href="">two</a>
+            <a href="">three</a>
+            <a href="">four</a>
+            <a href="">five</a>
+        </div>
+    </div>
+</body>
+</html>
