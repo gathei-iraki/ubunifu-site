@@ -1,0 +1,793 @@
+.color{
+  
+  background-color: rgba(0, 0, 0, 0.589);
+  width: 100%;
+  height: 100%;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/main8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  
+
+  .ubunifu {
+   
+    height: 59px;
+
+    float: left;
+    width: max-content;
+    color: #C42B1B;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+  
+  }
+  .ubunifu img{
+    display: flex;
+    margin-right: 400px;
+  }
+  
+  .nav{
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+    align-items: center;
+    
+  }
+  
+  
+  .navbar {
+    font-size: 9px;
+    width: 100%;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    /* padding-top: 20px; */
+    height: 10%;
+  }
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    
+    
+  }
+  
+
+  .navigationlft{
+    display: flex;
+    
+    
+    padding-top: 2%;
+  
+    text-align: center;
+   
+  
+  
+  }
+  nav a li:hover{
+    background-color:#088;
+  }
+
+  .dropdown{
+    
+    display: flex;
+    flex-direction: column;
+    
+  
+  }
+  .dropdown-content {
+    display: none;
+    background-color: #332727;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* z-index: 1; */
+  }
+  
+
+  .dropdown-content a {
+    /* float: none; */
+    color: black;
+    /* padding: 1px 16px; */
+    text-decoration: none;
+    /* display: block; */
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    /* height: 200px; */
+  }
+
+  .drpdwn{
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .drpdwn-content {
+    display: none;
+    background-color: #332727;
+    width: 10px;
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* z-index: 1; */
+  }
+  
+  .drpdwn-content a {
+     /* float: none; */
+     color: black;
+     /* padding: 1px 16px; */
+     text-decoration: none;
+     /* display: block; */
+     text-align: left;
+  }
+  
+  .drpdwn-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .drpdwn:hover .drpdwn-content {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    /* height: 200px; */
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+  .develop{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Josefin Sans', sans-serif;
+  font-weight: 950;
+font-size: 95px;
+color: white;
+text-align: center;
+  }
+
+  .define{
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  padding-top: 25px;
+  transform: translate(-50%, -50%);
+  font-family: 'Josefin Sans', sans-serif;
+font-weight: 500;
+font-size: 30px;
+color: white;}
+
+
+
+button { 
+display: flex;
+margin-left: 250px;
+
+  font-family: 'Josefin Sans', sans-serif;
+ background-color: #C42B1B;
+ color: white;
+   border: none;
+ font-weight: 300;
+ font-size: 15px;
+
+ border-radius: 12px;
+ 
+ 
+ /* width: 150px; */
+
+ padding: 4px ; 
+} 
+
+button .navbar{
+  padding-top: 30px;
+  position: absolute;
+  
+
+}
+.arrow{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  padding-top: 25px;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.startup{
+  display: flex;
+  width: 60px;
+  margin-left: 58px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+ 
+.learning{
+  display: flex;
+  width: 60px;
+  margin-left: 58px;
+  
+}
+.whole{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 10%;
+}
+
+.everything{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+height: 140vh;        
+}
+.one{
+ 
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  text-align: center;
+margin-left: 60px;
+color: white;
+}
+.tow{
+  width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.think{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 20%;
+}
+.projimg{
+  width: 90%;
+    display: flex;
+    flex-direction: column;
+  text-align: center;
+margin-left: 60px;
+color: white;
+}
+
+.sunglass{
+  width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    
+}
+.suntext{
+  position:absolute;
+  color: black;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 200px;
+
+}
+
+.video{
+  display: flex;
+  height: 500%;
+  width: 100%;
+  padding-top: 30px;
+  padding: 60px 50px;
+  
+}
+
+.belong{
+  display: flex;
+  width: max-content;
+  margin-left: 40px;
+background-color: #E8d2d2;
+text-align: right;
+font-size: 40px;
+}
+.karibu{
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.socials {
+  display: flex;
+  width: max-content;
+  margin-left: 120px;
+}
+
+.mini{
+ margin-left: 10%;
+}
+ h4{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+font-weight: 900;
+font-size: 30px;
+ }
+
+ .searchArea input {
+  width: 240px;
+}
+
+.searchArea .inputDiv {
+  overflow: hidden;
+  border: solid 1px gray;
+}
+.searchArea {
+ display: flex;
+}
+.email{
+  font-weight: 570;
+ 
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+
+}
+.weekly{
+font-size: small;
+font-weight: 525;
+width: 90%;
+text-align: center;
+margin-top: 20px;
+}
+
+.chefn {
+text-align: center;
+width: 45%;
+color: #C42B1B;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 800;
+
+}
+.fin{
+background-color: #f3f4f6;
+}
+.row {
+display: flex;
+width: max-content;
+margin-left: 80px;
+
+}
+
+.column {
+margin-left: 5%;
+
+}
+
+.copy{
+  display: flex;
+ 
+  margin-left: 0px;
+    height: 500%;
+    width: 100%;
+    padding: 20px 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    font-size: larger;
+  }
+
+  .finally{
+      display: flex;
+      align-content: center;
+      margin-left: 380px;
+      
+        width: 100%;
+    
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 800;
+        font-size: larger;
+      }
+
+      .tired{
+        margin-top: 40px;
+        background-color: #1c1c1c;
+        color: #6f6f6f;
+        
+      }
+      .stuff{
+        margin-left: 20px;
+      }
+      td{
+        margin-left: 80px; 
+      }
+
+      .con{
+        display: flex;
+  width: max-content;
+  margin-left: 5px;
+
+      }
+      .media{
+       margin-left: 10px;
+      }
+
+      .copy{
+         background-color: #141414;
+         height: 100px;
+         width: 100%;
+         display: flex;
+        
+         align-items: right;
+         padding-right: 1600px;
+      }
+      .together{
+        display:flex;
+        text-align: center;
+        height: 100px;
+        width: 100%;
+        background-color: #ff214f;
+        padding-top: 30px;
+        padding-right: 150px; 
+        font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    font-size: large;
+    color: white;
+
+      }
+      .youtube{
+        display: flex;
+        align-items: center;
+      padding-top: 30px;
+      
+      display: flex;
+      margin-left: 250px;
+      }
+.students{
+  display: flex;
+  align-items: center;
+padding-top: 30px;
+
+margin-left: 40%;
+}
+.stud{
+display: flex;
+margin-left: 36%;
+padding-bottom: 60px;
+}
+    .sticky{
+      background-image: url(/images/main5.jpg);
+      width: 100%;
+    height: 80vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }  
+.play{
+   display: flex;
+   margin-left: 50%;
+   padding-top: 180px;
+}
+.know{
+display: flex;
+margin-left: 30%;
+padding-top: 10px;
+color: white;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 550;
+font-size: 30px;
+}
+
+      .two{
+        width: 100%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 800;
+          display: flex;
+          flex-direction: column;}
+.graduating{
+  display: flex;
+}
+.pathways{
+
+}
+.studfull{
+  display: flex;
+  margin-top: 900px;
+}
+ .femfull{
+  display: flex;
+  margin-top: 200px; 
+ 
+ 
+ }
+ .thought{
+  height: 100%;
+  width: 50%;
+  display: flex;
+ justify-content: left;
+  margin-top: 0px;
+
+ }
+ .software{
+  position: absolute;
+  width: 90%;
+    display: flex;
+    flex-direction: column;
+  text-align: center;
+
+color: white;
+
+
+
+}
+
+.overlay{
+  
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+ width: 33%;
+  opacity: 0;
+  transition: .5s ease;
+   background-color: #ff2182;
+  }
+  
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .software:hover .overlay {
+    opacity: 0.5;
+  }
+  .machine:hover .overlay {
+    opacity: 0.5;
+  }
+  .data:hover .overlay{
+    opacity: 0.5;}
+
+    .blockchain:hover .overlay{
+      opacity: 0.5;}
+
+      .robotics:hover .overlay{
+        opacity: 0.5;}
+
+        .startup:hover .overlay{
+          opacity: 0.5;}
+ 
+ .texter{
+  position:absolute;
+  color: black;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 200px;
+  display: flex;
+  margin-top: 90px;
+ 
+ }
+
+ .machine{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  
+  color: white;
+  margin-left: 420px;
+ }
+ .machine .overlay{
+  width: 29.6%;
+ }
+
+ .data{
+  position: absolute;
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin-left: 860px;
+ }
+ 
+ .data .overlay{
+  width: 29.6%;
+ }
+ .malefull{
+  display: flex;
+  margin-top: 400px; 
+ }
+ 
+
+ .mind{
+  height: 100%;
+  width: 50%;
+  display: flex;
+ justify-content: left;
+  margin-top: 0px;
+ }
+
+ .blockchain{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+ }
+ .blockchain .overlay{
+  width: 29.6%;
+ }
+ .robotics{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin-left: 420px;
+ }
+ .robotics .overlay{
+  width: 29.6%;
+ }
+ .startup{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin-left: 860px;
+ }
+ .startup .overlay{
+  width: 29.6%;
+ }
+ .bifull{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+height: 85vh; 
+background-color: #007bff;
+ 
+  margin-top: 500px;
+ }
+
+ .akili{
+  
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 10%;
+ }
+ .bucket{
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin-left: 150px;
+  
+ }
+ .admissions{
+  
+  width: 50%;
+  height: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin-left: 200px;
+  margin-bottom: 50px;
+  
+  ;
+ }
+
+ .methodof{
+  
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin-left: 200px;
+  
+ }
+ 
+
+  
+ 
+ 
+ .classeshours{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin-left: 250px;
+  margin-top: 40px;
+  
+  
+ }
+
+ .measure{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin-left: 250px;
+  margin-top: 60px;
+ }
+
+ .title{
+  
+  display: flex;
+  margin-left: 400px;
+  align-items: center;
+  margin-bottom: 50px;
+ }
